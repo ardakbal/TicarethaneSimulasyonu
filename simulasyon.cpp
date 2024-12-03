@@ -23,10 +23,10 @@ struct firmaUrun {
 };
 
 int main() {
-	setlocale(LC_ALL, "Turkish"); // Türkçe karakter desteği sağlanıyor.
-	srand(time(0)); // Rastgele sayılar için başlangıç noktası belirleniyor.
-	cout.precision(2); // Ondalıklı sayılar için 2 basamak gösteriliyor.
-	cout << fixed; // Ondalıklı sayılar sabit formatta yazdırılıyor.
+	setlocale(LC_ALL, "Turkish");   // Türkçe karakter desteği sağlanıyor.
+	srand(time(0)); 	       // Rastgele sayılar için başlangıç noktası belirleniyor.
+	cout.precision(2);            // Ondalıklı sayılar için 2 basamak gösteriliyor.
+	cout << fixed; 	             // Ondalıklı sayılar sabit formatta yazdırılıyor.
 
 	cout << "Merhaba, ticarethane simülasyon panelimize hoş geldiniz! Simülasyon paneli" << endl
 		<< "üzerinden ürünlerimizin stok miktarının, satış miktarının, kâr oranının, ödenen KDV tutarının," << endl
